@@ -1,7 +1,7 @@
 const getTranslation = require('./translationService');
 
 // describe, test, expect
-//jest.mock('./translationService');
+jest.mock('./translationService');
 
 describe('Translation Service Tests', () => {
   test('As a user I want to get a translated text from a sentence', async () => {
